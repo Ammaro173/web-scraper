@@ -46,3 +46,5 @@ def get_citations_needed_report(url):
 
 print("\n", "The number of citations are = ", get_citations_needed_count(url), end="\n")
 print("\n", "The final report := ", get_citations_needed_report(url), end="\n")
+
+##todo: add timeOut to the requests.get() !! , so you wont get blocked by the server + between operations!!
